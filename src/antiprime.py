@@ -3,7 +3,8 @@
 ## COMMAND LINE SPECIFIED BELOW
 
 import sys
-x = int (sys.argv[1])
+x = int(sys.argv[1]) if len(sys.argv) > 1 else 0
+
 
 def main(x) :
 	## YOU CODE SHOULD START HERE AST THE SAME
