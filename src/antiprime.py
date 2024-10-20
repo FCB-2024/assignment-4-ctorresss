@@ -9,7 +9,7 @@ import sys
 if len(sys.argv) > 1 and sys.argv[1].isdigit():
     x = int(sys.argv[1])
    
-	def main(x) :
+	def main(x):
 		## YOU CODE SHOULD START HERE AST THE SAME
 		## IDENTATION AS THIS COMMENT
 
