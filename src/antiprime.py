@@ -19,7 +19,7 @@ def main(x):
 			sx = sx + 1
 		i = i + 1	
 
-	print(sx)
+# print(sx)
 
 	# Comprovem els divisors dels números més petits
 	while (x - 1 > 0):
@@ -30,10 +30,11 @@ def main(x):
 			if (x % j == 0):
 				s = s + 1
 			j = j + 1
-		print(s)
+		# print(s)
 
 		if (s >= sx):
 			return("not anti-prime")
+	
 	return("anti-prime")
 
 		## THE LAST LINES OF YOUR CODE SHOULD EITHER
