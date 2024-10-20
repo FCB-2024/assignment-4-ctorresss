@@ -53,5 +53,4 @@ if __name__ == "__main__" :
 	## WHERE THE FIRST ARGUMENT IS A POSITIVE INTEGER NUMBER FOR WHICH
 	## YOU WANT TO FIGURE OUT WHETHER IS ANTI-PRIME OR NOT
 
-print(main(x))
-
+	print(main(x))
