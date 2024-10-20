@@ -1,9 +1,4 @@
-## ADD WHATEVER ARGUMENTS ARE NECESSARY TO THE MAIN FUNCTION
-## IN THE SAME ORDER AS THE ARGUMENTS ARE TAKEN FROM THE
-## COMMAND LINE SPECIFIED BELOW
-
 import sys
-
 
 # Comprovar que hi ha almenys un argument i que és un número enter
 if len(sys.argv) > 1 and sys.argv[1].isdigit():
@@ -39,9 +34,7 @@ def main(x):
 
 		if (s >= sx):
 			return("not anti-prime")
-	else:
-		return("anti-prime")
-
+	return("anti-prime")
 
 		## THE LAST LINES OF YOUR CODE SHOULD EITHER
 		## RETURN THE VALUE "anti-prime" or "not anti-prime"
